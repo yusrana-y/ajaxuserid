@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>USERS</title>
     <style>
+
         h1{
             font-family: "Playfair Display", serif;
         }
@@ -20,6 +21,23 @@
             display:grid;
             grid-template-columns: repeat(4,1fr);
             column-gap: 5px;
+        }
+
+        @media(max-width:768px){
+            #result{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 5px;
+        }
+    }
+
+        @media(max-width:600px){
+            #result{
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+            column-gap: 5px;
+        }
+
         }
     </style>
 </head>
